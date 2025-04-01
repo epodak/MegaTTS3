@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+megatts.egg-info/PKG-INFO
+megatts.egg-info/SOURCES.txt
+megatts.egg-info/dependency_links.txt
+megatts.egg-info/top_level.txt

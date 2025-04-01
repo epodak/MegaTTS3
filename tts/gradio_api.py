@@ -19,7 +19,7 @@ import os
 from functools import partial
 import gradio as gr
 import traceback
-from tts.infer_cli import MegaTTS3DiTInfer, convert_to_wav, cut_wav
+from .infer_cli import MegaTTS3DiTInfer, convert_to_wav, cut_wav
 
 
 def model_worker(input_queue, output_queue, device_id):

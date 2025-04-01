@@ -1,0 +1,115 @@
+# 操作系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.downloading
+*.cfg
+
+# 临时文件
+*.tmp
+*.temp
+~$*
+
+# 日志文件
+*.log
+*.out
+*.err
+
+# 编译输出
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.lib
+*.a
+*.dylib
+
+# 压缩文件
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.rar
+*.7z
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 镜像文件
+*.iso
+*.img
+*.vdi
+*.vmdk
+*.vhd
+*.qcow2
+
+# 音视频文件
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+
+# 图片文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+*.ai
+
+# 文档文件
+*.pdf
+*.epub
+*.doc
+*.docx
+*.docm
+*.xls
+*.xlsx
+*.xlsm
+*.ppt
+*.pptx
+*.dwg
+*.mpp
+
+# 可执行脚本
+*.exe
+
+# 临时编辑器文件
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# 包管理器文件
+node_modules/
+vendor/
+.bower_components/
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+
+# Git 工作树文件
+*-worktree/
+
+# 忽略所有位置的 cloud_storage 文件夹
+*cloud_backup/
+*云备份/
+
+# 忽略所有深度的文件夹,看来必须要放在后面
+!**/assets/**
